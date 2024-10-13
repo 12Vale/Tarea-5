@@ -1,0 +1,115 @@
+.contenedor{
+  padding: 5px;
+  background-color: azure;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 5fr 1fr;
+  grid-template-areas: "header header" "nav nav" "contenido ads" "footer footer";
+}
+.contenedor .header{
+  background-color: azure;
+  grid-area: header;
+}
+.contenedor .nav{
+  background-color: azure;
+  grid-area: nav;
+}
+.contenedor .contenido{
+  background-color: azure;
+  grid-area: contenido;
+}
+.contenedor .ads{
+  background-color: azure;
+  grid-area: ads;
+}
+.contenedor .footer{
+  background-color: azure;
+  grid-area: footer;
+}
+.contenedor .cont{
+  display: grid;
+  grid-gap: 10px;
+  height: 700px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 4fr 3fr;
+  grid-template-areas: "cont1 cont2 cont3" "img1 img1 img1";
+}
+.contenedor .cont .cont1{
+  padding: 10px;
+  grid-area: cont1;
+  display:grid;
+  grid-gap:10px;
+  border: 1px solid black;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: "c1" "c2";
+}
+.contenedor .cont .cont2{
+  padding: 10px;
+  grid-area: cont2;
+  display:grid;
+  grid-gap:10px;
+  border: 1px solid black;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: "c3" "c4";
+}
+.contenedor .cont .cont3{
+  padding: 10px;
+  grid-area: cont3;
+  display:grid;
+  grid-gap:10px;
+  border: 1px solid black;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: "c5" "c6";
+}
+.contenedor .cont .img1{
+  grid-area: img1;
+}
+.contenedor .cont .c1{
+  text-align: center;
+  font-size: 20px;
+  font-family: Fantasy;
+  font-style: bold;
+  padding: 10px;
+  grid-area: c1;
+  border: 1px solid black;
+}
+.contenedor .cont .c2{
+  padding:10px;
+  grid-area: c2;
+}
+.contenedor .cont .c3{
+  text-align: center;
+  font-size: 20px;
+  font-family: Fantasy;
+  font-style: bold;
+  padding:10px;
+  grid-area: c3;
+  border: 1px solid black;
+}
+.contenedor .cont .c4{
+  padding:10px;
+  grid-area: c4;
+}
+.contenedor .cont .c5{
+  text-align: center;
+  font-size: 20px;
+  font-family: Fantasy;
+  font-style: bold;
+  padding:10px;
+  grid-area: c5;
+  border: 1px solid black;
+}
+.contenedor .cont .c6{
+  padding:10px;
+  grid-area: c6;
+}
+.contenedor .contenido1 .t1{
+  font-size: 30px;
+  font-family: Fantasy;
+  font-style: bold;
+}
+.contenido .sb{
+  font-family: Cavolini;
+  font-size: 50px;
+  text-align: center;
+}
